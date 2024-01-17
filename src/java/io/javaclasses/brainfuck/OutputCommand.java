@@ -6,6 +6,6 @@ package io.javaclasses.brainfuck;
 public class OutputCommand implements Command {
     @Override
     public void executeCommand(Memory cells) {
-        System.out.println(cells.getCurrentCell());
+        System.out.print(cells.getCurrentCell());
     }
 }
